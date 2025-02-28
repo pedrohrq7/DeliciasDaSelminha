@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada Viagem</title>
+    <link rel="icon" type="image/png" href="/image/airplane.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="bg-light shadow-sm fixed-top py-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="image/logo.jfif" alt="Logotipo Jornada Viagem" width="80" height="60" class="me-2">
+                <h1 class="h4 m-0">Jornada Viagens</h1>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.rodei.com.br/" target="_blank">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pacotes">Pacotes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-5 pt-5">
+        <section id="sobre" class="py-5">
+            <h2>Sobre nós</h2>
+            <p>Somos uma agência apaixonada por criar viagens inesquecíveis...</p>
+        </section>
+
+        <section id="carrossel" class="py-5">
+            <h2>Destinos Populares</h2>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/id/1041/800/450" class="d-block w-100" alt="Paisagem 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/id/1043/800/450" class="d-block w-100" alt="Paisagem 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/id/1044/800/450" class="d-block w-100" alt="Paisagem 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </section>
+
+        <section id="pacotes" class="py-5">
+            <h2>Ofertas da Semana</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="image/japao.jpg" class="card-img-top" alt="Japão">
+                        <div class="card-body">
+                            <h5 class="card-title">Japão</h5>
+                            <p class="card-text">HOTEL + AÉREO</p>
+                            <p class="text-primary fw-bold">R$ 4.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="image/sanandreas.jpg" class="card-img-top" alt="San Andreas">
+                        <div class="card-body">
+                            <h5 class="card-title">San Andreas</h5>
+                            <p class="card-text">HOTEL + AÉREO</p>
+                            <p class="text-primary fw-bold">R$ 7.500</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="image/paraiba.jpg" class="card-img-top" alt="Paraíba">
+                        <div class="card-body">
+                            <h5 class="card-title">Paraíba</h5>
+                            <p class="card-text">ALL INCLUSIVE</p>
+                            <p class="text-primary fw-bold">R$ 1.500</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="image/manaus.jpg" class="card-img-top" alt="Manaus">
+                        <div class="card-body">
+                            <h5 class="card-title">Manaus</h5>
+                            <p class="card-text">ALL INCLUSIVE + AÉREO</p>
+                            <p class="text-primary fw-bold">R$ 1.600</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <p>&copy; 2025 Jornada de Viagens. Todos os direitos reservados. ✈🌎</p>
+        <p>Email: contato@jornada.com.br | Telefone: (21)99999-9999</p>
+        <div>
+            <a href="#" class="text-light me-2"><img src="image/facebook.png" width="20"></a>
+            <a href="#" class="text-light me-2"><img src="image/instagram.png" width="20"></a>
+            <a href="#" class="text-light"><img src="image/whatsapp.png" width="20"></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
